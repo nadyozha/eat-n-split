@@ -7,19 +7,19 @@ import { FriendsList } from "./FriendsList";
 const initialFriends = [
   {
     id: 118836,
-    name: "Vityundra",
+    name: "Jon",
     image: "https://i.pravatar.cc/48?u=118836",
     balance: 0,
   },
   {
     id: 933372,
-    name: "Igor Kovalchuk",
+    name: "Matilda",
     image: "https://i.pravatar.cc/48?u=933372",
     balance: -3800,
   },
   {
     id: 499476,
-    name: "Viktor Ivanovich",
+    name: "Bob",
     image: "https://i.pravatar.cc/48?u=499476",
     balance: 300,
   },

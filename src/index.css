@@ -94,7 +94,7 @@ body {
   grid-column: 3;
 }
 
-.sidebar > .button {
+.sidebar>.button {
   float: right;
   margin-right: 1.2rem;
 }
@@ -122,6 +122,7 @@ form {
   margin-bottom: 1.6rem;
   padding: 1.2rem;
 }
+
 .form-split-bill {
   grid-template-columns: 1fr 12rem;
   padding: 3.2rem 4rem;
@@ -166,4 +167,60 @@ form h2 {
   text-transform: uppercase;
   letter-spacing: -0.5px;
   margin-bottom: 1.6rem;
+}
+
+
+@media (max-width: 843.98px) {
+  body {
+    padding-top: 5rem;
+    align-items: start;
+    justify-content: center;
+  }
+
+  .app {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .form-split-bill {
+    margin-top: 2rem;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
+
+  .form-split-bill {
+    min-width: 465px;
+  }
+}
+
+@media (max-width: 478.98px) {
+  .app {
+    padding: 16px 0;
+  }
+
+  .form-split-bill {
+    min-width: 0;
+    padding: 16px;
+  }
+
+  form h2 {
+    font-size: 2rem;
+  }
+
+  form {
+    width: 100%;
+    font-size: 1rem;
+    padding: 16px 0;
+  }
+
+  .sidebar .button {
+    margin-right: 0;
+    width: 100%;
+  }
+
+  form .button {
+    width: 100%;
+  }
 }
